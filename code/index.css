@@ -1,11 +1,6 @@
 /*******************************
             Global
 *******************************/
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
 
 :root {
   --color-blue-light: #d9eeef;
@@ -59,7 +54,7 @@ h5 {
 }
 
 .card {
-  width: 210px;
+  width: 30%;
   margin: 20px 0;
   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
@@ -74,6 +69,7 @@ h5 {
   justify-content: center;
   align-items: center;
   min-height: 150px;
+  padding: 20px;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
 }
@@ -153,6 +149,20 @@ h5 {
 }
 
 .footer {
+  margin-top: -3px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.footer-wrapper {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.footer-wrapper span {
+  padding: 10px;
 }
 
 /*******************************
